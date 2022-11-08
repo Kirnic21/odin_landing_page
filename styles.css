@@ -61,8 +61,70 @@ button{
 .background-3
 {
     display: flex;
-    background-color: #F9FAF8;;
+    background-color: #F9FAF8;
     color:#1F2937;
+    padding: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+.item
+{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.Girls
+{
+  border-radius: 28px;
+  background: #73AD21;
+  padding: 20px;
+  width: 250px;
+  height: 200px;
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.text
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+.background-4
+{
+    background-color: #e5e7eb;
     padding: 200px;
-    justify-content: space-around;
+
+}
+.quote{
+    font-size: 36px;
+    font-style:italic;
+    color:#1F2937;
+    margin: 5px;
+}
+.author{
+    font-weight: bold;
+    text-align: right;
+    font-size: 28px;
+}
+.background-5
+{
+    background-color: #F9FAF8;
+    padding: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    padding: 100px;
+    background-color: #3882f6;
+    border-radius: 20px;
 }
